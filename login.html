@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <!-- Vincule o arquivo CSS aqui -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<header>
+    <img src="logomk.png" alt="">
+</header>
+<style>
+    body {
+        background-color: black;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      background-color:black }
+</style>
+<body>
+    <br>
+    <br>
+
+    <main>
+<div class="box-login">
+
+    <h1 class="title_login"><i class="icon icon-key-1"></i> Login</h1>
+
+    <form action="#" method="post" class="form login">
+
+        <div class="form_field">
+        
+            <label for="login__username">
+                <i class="icon icon-user-1"></i>
+                <span class="hidden">E-mail</span>
+            </label>
+            
+            <input autocomplete="off" id="login_username" type="text" name="email" class="form_input" placeholder="E-mail" required>
+
+        </div>
+
+    
+
+        <div class="form_field">
+        
+            <label for="login_password">
+
+                <i class="icon icon-lock"></i>
+                <span class="hidden">Senha</span>
+            
+            </label>
+        
+            <input id="login_password" type="password" name="password" class="form_input" placeholder="Password" required>
+      
+        </div>
+
+        <div class="form_field">
+            <input type="submit" value="Entrar">
+        </div>
+
+    </form>
+
+    <p class="resgatar-senha">Não tenho cadastro, 
+
+        <a href="cadastroMarkin.html">Criar Conta </a> 
+
+        <p class="resgatar-senha">Esqueci minha senha, 
+
+            <a href="paginamanutencao.html">Recuperar </a> 
+    
+    </p>
+
+</div><!--Box Login-->
+</main>
+</body>
